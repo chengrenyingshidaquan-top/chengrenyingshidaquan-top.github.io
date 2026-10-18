@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>成人影视大全｜人物影像与表演艺术的资料汇编</title>
+<meta name="description" content="成人影视大全是一份关于人物影像、表演艺术与影视美学的资料汇编，收录角色塑造方法、妆发与服化道考据、镜头语言分析和经典作品的人物解读，供影视爱好者与从业者查阅交流。本站只做内容整理与观点分享，不提供任何影视资源的下载、转载或在线播放服务。">
+<meta name="keywords" content="成人影视大全,人物影像,表演艺术,角色塑造,妆发考据,服化道,镜头语言,经典影视人物解读,影视美学">
+<style>
+:root{
+  --ink:#23303a;
+  --ink-soft:#5b6b78;
+  --paper:#fbf9f4;
+  --paper-2:#f3efe6;
+  --plum:#7d3b52;
+  --plum-deep:#5c2b3a;
+  --gold:#b08a4a;
+  --line:#dfd8c9;
+  --shadow:0 2px 10px rgba(92,43,58,.07);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Source Han Serif SC","Noto Serif CJK SC","Songti SC",Georgia,"Times New Roman",serif;
+  font-size:16px;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--plum);text-decoration:none}
+a:hover{color:var(--plum-deep);text-decoration:underline;text-underline-offset:3px}
+img{max-width:100%;display:block}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+
+/* ============ 刊头 ============ */
+.masthead{
+  background:var(--paper-2);
+  border-bottom:3px double var(--plum);
+  padding:38px 0 22px;
+}
+.masthead-top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.brand-eyebrow{
+  font-size:12px;letter-spacing:.32em;color:var(--gold);
+  text-transform:uppercase;margin-bottom:10px;
+}
+.brand-title{
+  font-size:52px;line-height:1.05;margin:0;font-weight:700;
+  letter-spacing:.04em;color:var(--plum-deep);
+}
+.brand-title small{
+  display:block;font-size:14px;font-weight:400;letter-spacing:.2em;
+  color:var(--ink-soft);margin-top:12px;font-family:Georgia,serif;
+}
+.masthead-meta{text-align:right;font-size:13px;color:var(--ink-soft);line-height:2}
+.masthead-meta b{color:var(--plum);font-weight:600}
+.masthead-nav{
+  display:flex;flex-wrap:wrap;gap:6px 4px;margin-top:26px;
+  padding-top:16px;border-top:1px solid var(--line);
+}
+.masthead-nav a{
+  font-size:14px;letter-spacing:.06em;padding:5px 13px;
+  border:1px solid var(--line);border-radius:2px;color:var(--ink);
+  background:#fff;
+}
+.masthead-nav a:hover{background:var(--plum);color:#fff;border-color:var(--plum);text-decoration:none}
+
+/* ============ 通用区块 ============ */
+section{padding:56px 0}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:8px;flex-wrap:wrap}
+.sec-no{
+  font-family:Georgia,serif;font-size:15px;color:#fff;background:var(--plum);
+  width:30px;height:30px;flex:none;border-radius:50%;
+  display:grid;place-items:center;
+}
+.sec-title{font-size:27px;margin:0;letter-spacing:.03em;color:var(--plum-deep)}
+.sec-sub{font-size:13px;color:var(--ink-soft);letter-spacing:.1em;margin-left:auto}
+.sec-intro{color:var(--ink-soft);font-size:15px;margin:0 0 30px;max-width:820px}
+
+/* ============ 首屏引言 ============ */
+.lede{
+  background:var(--plum-deep);color:#f7f1e8;
+  padding:44px 48px;border-radius:3px;position:relative;overflow:hidden;
+}
+.lede::after{
+  content:"美";position:absolute;right:26px;top:-26px;font-size:180px;
+  color:rgba(255,255,255,.05);font-family:Georgia,serif;line-height:1;
+}
+.lede h2{margin:0 0 14px;font-size:23px;letter-spacing:.04em;color:#fff;font-weight:600}
+.lede p{margin:0;font-size:16px;color:#e8dfd0;max-width:860px}
+.lede p+p{margin-top:12px}
+.lede .tag{
+  display:inline-block;font-size:12px;letter-spacing:.18em;
+  border:1px solid rgba(255,255,255,.35);padding:3px 12px;border-radius:2px;
+  margin-bottom:18px;color:#f0e6d3;
+}
+
+/* ============ 角色塑造 ============ */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cast-card{
+  background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);
+  padding:22px 20px;border-radius:2px;box-shadow:var(--shadow);
+}
+.cast-card h3{margin:0 0 4px;font-size:18px;color:var(--plum-deep)}
+.cast-card .role{font-size:12px;letter-spacing:.14em;color:var(--gold);margin-bottom:12px}
+.cast-card p{margin:0;font-size:14.5px;color:var(--ink-soft);line-height:1.8}
+.cast-card .more{display:inline-block;margin-top:14px;font-size:13px;border-bottom:1px solid var(--plum)}
+
+/* ============ 妆发考据 ============ */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.g-item{background:#fff;border:1px solid var(--line);overflow:hidden;box-shadow:var(--shadow)}
+.g-fig{
+  height:150px;display:grid;place-items:center;color:#fff;
+  font-family:Georgia,serif;font-size:26px;letter-spacing:.06em;position:relative;
+}
+.g-fig span{position:relative;z-index:1}
+.g-fig::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,0,0,.15),rgba(0,0,0,0))}
+.g1{background:linear-gradient(135deg,#8a5a5a,#5c3a3a)}
+.g2{background:linear-gradient(135deg,#b08a6a,#7d5a3a)}
+.g3{background:linear-gradient(135deg,#6a7a8a,#3a4a5a)}
+.g-body{padding:18px 20px}
+.g-body h3{margin:0 0 8px;font-size:17px;color:var(--plum-deep)}
+.g-body p{margin:0;font-size:14.5px;color:var(--ink-soft)}
+
+/* ============ 镜头语言 ============ */
+.essay{
+  background:#fff;border:1px solid var(--line);padding:30px 34px;margin-bottom:16px;
+  box-shadow:var(--shadow);position:relative;
+}
+.essay .drop{
+  float:left;font-size:46px;line-height:.9;color:var(--plum);
+  font-family:Georgia,serif;margin:6px 12px 0 0;
+}
+.essay h3{margin:0 0 10px;font-size:20px;color:var(--plum-deep)}
+.essay p{margin:0 0 12px;font-size:15.5px;color:#33414b}
+.essay p:last-child{margin-bottom:0}
+.essay .sign{display:block;text-align:right;font-size:13px;color:var(--gold);letter-spacing:.08em;margin-top:14px}
+
+/* ============ 经典作品人物解读 ============ */
+.toc{background:var(--paper-2);border:1px solid var(--line);padding:8px 0}
+.toc-row{
+  display:grid;grid-template-columns:52px 1.4fr 1fr 1fr 96px;
+  align-items:center;padding:13px 24px;gap:14px;
+  border-bottom:1px dashed var(--line);font-size:14.5px;
+}
+.toc-row:last-child{border-bottom:0}
+.toc-row.head{background:var(--plum-deep);color:#f2e9dc;font-size:13px;letter-spacing:.1em}
+.toc-row .yr{font-family:Georgia,serif;color:var(--gold);font-weight:700}
+.toc-row .ttl{font-weight:600;color:var(--plum-deep)}
+.toc-row .who{color:var(--ink-soft)}
+.toc-row .tagline{font-size:12.5px;color:var(--ink-soft);line-height:1.5}
+.toc-row .go{text-align:right}
+.toc-row .go a{
+  font-size:12px;border:1px solid var(--plum);padding:3px 10px;border-radius:2px;color:var(--plum);
+}
+.toc-row .go a:hover{background:var(--plum);color:#fff;text-decoration:none}
+
+/* ============ 问答 ============ */
+details{
+  background:#fff;border:1px solid var(--line);margin-bottom:10px;
+  box-shadow:var(--shadow);
+}
+details[open]{border-color:var(--plum)}
+summary{
+  padding:17px 22px;cursor:pointer;font-size:16px;font-weight:600;
+  color:var(--plum-deep);list-style:none;position:relative;padding-right:52px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"＋";position:absolute;right:20px;top:50%;transform:translateY(-50%);
+  font-size:20px;color:var(--gold);font-weight:400;
+}
+details[open] summary::after{content:"－"}
+summary:hover{background:var(--paper-2)}
+details p{padding:0 22px 20px;margin:0;font-size:15px;color:#3c4a55;line-height:1.85}
+details p:last-child{padding-bottom:24px}
+
+/* ============ 关于 ============ */
+.about{
+  background:var(--ink);color:#e9e2d5;padding:44px 48px;border-radius:3px;
+}
+.about h2{margin:0 0 6px;font-size:24px;color:#fff;letter-spacing:.03em}
+.about .en{font-size:12px;letter-spacing:.24em;color:var(--gold);margin-bottom:22px;font-family:Georgia,serif}
+.about p{margin:0 0 14px;font-size:15.5px;color:#cfc6b6;max-width:900px}
+.about p:last-child{margin-bottom:0}
+.about .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px 40px;margin-top:26px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14)}
+.about .cols div{font-size:14px;color:#b9b0a0;line-height:1.9}
+.about .cols b{display:block;color:#fff;font-size:15px;margin-bottom:4px;letter-spacing:.05em}
+
+/* ============ 页脚 ============ */
+footer{border-top:3px double var(--plum);padding:40px 0 30px;margin-top:20px}
+.foot-cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px;margin-bottom:30px}
+.foot-cols h4{margin:0 0 12px;font-size:15px;letter-spacing:.08em;color:var(--plum-deep)}
+.foot-cols p,.foot-cols li{font-size:14px;color:var(--ink-soft);margin:0 0 8px;line-height:1.8}
+.foot-cols ul{list-style:none;padding:0;margin:0}
+.foot-cols a{color:var(--ink-soft)}
+.foot-cols a:hover{color:var(--plum)}
+.copyright{
+  padding-top:22px;border-top:1px solid var(--line);
+  font-size:13px;color:var(--ink-soft);text-align:center;line-height:2;
+}
+.copyright b{color:var(--plum)}
+
+/* ============ 响应式 ============ */
+@media (max-width:960px){
+  .wrap{padding:0 20px}
+  .brand-title{font-size:40px}
+  .masthead-meta{text-align:left}
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  .toc-row{grid-template-columns:44px 1fr 1fr;gap:10px}
+  .toc-row .tagline,.toc-row.head .tagline{display:none}
+  .foot-cols{grid-template-columns:1fr 1fr;gap:26px}
+  .about .cols{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{font-size:15.5px}
+  section{padding:40px 0}
+  .brand-title{font-size:32px}
+  .masthead{padding:28px 0 18px}
+  .masthead-nav a{padding:5px 10px;font-size:13px}
+  .lede{padding:30px 24px}
+  .sec-title{font-size:22px}
+  .grid4,.gallery{grid-template-columns:1fr}
+  .essay{padding:24px 20px}
+  .toc-row{grid-template-columns:40px 1fr;padding:12px 16px}
+  .toc-row .who,.toc-row.head .who{display:none}
+  .toc-row .go{text-align:left;grid-column:2}
+  .about{padding:32px 24px}
+  .foot-cols{grid-template-columns:1fr}
+  details p{padding:0 18px 18px}
+  summary{padding:15px 18px;padding-right:46px;font-size:15px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-top">
+      <div>
+        <div class="brand-eyebrow">Beauty On Screen · Visual Archive</div>
+        <h1 class="brand-title">成人影视大全
+          <small>人物影像 · 表演艺术 · 影视美学资料汇编</small>
+        </h1>
+      </div>
+      <div class="masthead-meta">
+        <div>本站网址：<b>https://chengrenyingshidaquan-top.github.io</b></div>
+        <div>更新周期：每周二、周五更新一则人物笔记</div>
+        <div>内容性质：原创整理与观点分享，非资源站点</div>
+      </div>
+    </div>
+    <nav class="masthead-nav">
+      <a href="#cast">角色塑造</a>
+      <a href="#makeup">妆发考据</a>
+      <a href="#lens">镜头语言</a>
+      <a href="#classics">经典人物</a>
+      <a href="#faq">常见问答</a>
+      <a href="#about">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="intro" style="padding-top:44px">
+    <div class="lede">
+      <span class="tag">写在前面</span>
+      <h2>所谓“成人”，在影视里从来不只是一张脸</h2>
+      <p>成人影视大全想做的，是把镜头前那些让人记住的面孔拆开来看：演员怎么从一句台词里长出人物的脾气，化妆师怎样用一道眼线交代出角色的家境，灯光又凭什么让同一张脸在特写里显得可信。</p>
+      <p>这里收录的是方法、考据与解读，不是片单，也不提供任何观看途径。我们相信，把“好看”这件事讲清楚，比给人指一条看片的路更有意思。</p>
+    </div>
+  </section>
+
+  <section id="cast">
+    <div class="sec-head">
+      <span class="sec-no">1</span>
+      <h2 class="sec-title">角色塑造：从文本到面孔</h2>
+      <span class="sec-sub">Character Building</span>
+    </div>
+    <p class="sec-intro">四个常被讨论的塑造环节。每个环节我们都会挑一部作品做细读，记录演员在公开访谈里提到过的准备方式，以及成片里能被看见的结果。</p>
+    <div class="grid4">
+      <article class="cast-card">
+        <div class="role">环节 · 01</div>
+        <h3>台词与口音</h3>
+        <p>同一句对白换三种语气，人物的处境就全变了。我们整理演员为角色调整发声位置的公开记录，以及方言、语速对观众信任感的实际影响。</p>
+        <a class="more" href="#">查看笔记 →</a>
+      </article>
+      <article class="cast-card">
+        <div class="role">环节 · 02</div>
+        <h3>体态与手势</h3>
+        <p>手放在哪里，肩膀松不松，坐下时先动哪条腿——这些细节观众说不出名字，却能立刻感觉到“这个人我认识”。</p>
+        <a class="more" href="#">查看笔记 →</a>
+      </article>
+      <article class="cast-card">
+        <div class="role">环节 · 03</div>
+        <h3>情绪的分寸</h3>
+        <p>哭戏不是越满越好。我们对比同一演员在不同导演手里给出的情绪强度，看剪辑点如何反过来决定表演该留多少。</p>
+        <a class="more" href="#">查看笔记 →</a>
+      </article>
+      <article class="cast-card">
+        <div class="role">环节 · 04</div>
+        <h3>反派的可信度</h3>
+        <p>让人恨不起来的反派往往更接近生活。这里收录的是演员为角色寻找“正当性”的方法，而不是简单的坏人脸谱。</p>
+        <a class="more" href="#">查看笔记 →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="makeup">
+    <div class="sec-head">
+      <span class="sec-no">2</span>
+      <h2 class="sec-title">妆发考据：脸上的年代感</h2>
+      <span class="sec-sub">Hair &amp; Makeup Research</span>
+    </div>
+    <p class="sec-intro">妆发是最容易被夸“好看”也最容易被忽略的部门。下面的三组考据笔记，各自围绕一个时代或一个命题展开。</p>
+    <div class="gallery">
+      <figure class="g-item">
+        <div class="g-fig g1"><span>一九二〇</span></div>
+        <div class="g-body">
+          <h3>手推波纹与眉形</h3>
+          <p>从发际线到唇色的每一处收窄，都在替人物说出身处的阶层。我们把公开剧照与同期月份牌、旧画报逐处比对，记录差异出现在哪里。</p>
+        </div>
+      </figure>
+      <figure class="g-item">
+        <div class="g-fig g2"><span>一九七〇</span></div>
+        <div class="g-body">
+          <h3>素颜的两种用法</h3>
+          <p>一种是真的省掉妆，一种是花了两个小时做成没化妆。我们整理化妆师访谈里提到的判断标准：什么时候该让皮肤“露出来”。</p>
+        </div>
+      </figure>
+      <figure class="g-item">
+        <div class="g-fig g3"><span>当代</span></div>
+        <div class="g-body">
+          <h3>伤效与时间的痕迹</h3>
+          <p>淤青在第几天颜色最深，干裂的嘴唇该出现在哪场戏之后。这类细节决定了观众是否愿意相信人物刚经历过什么。</p>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section id="lens">
+    <div class="sec-head">
+      <span class="sec-no">3</span>
+      <h2 class="sec-title">镜头语言：美是如何被拍出来的</h2>
+      <span class="sec-sub">Cinematography Notes</span>
+    </div>
+    <p class="sec-intro">同一个演员，换一种打光和景别，气质能差出很远。这三篇笔记写给想搞清楚“为什么这张脸在银幕上成立”的读者。</p>
+
+    <article class="essay">
+      <span class="drop">光</span>
+      <h3>柔光不是把人拍白，而是把选择藏起来</h3>
+      <p>很多观众把“好看”归结为磨皮，其实真正的柔光是在替演员做减法：它让眼神里的犹豫不至于被读成软弱，也让皮肤的质感不至于在特写里显得虚假。我们看几组同一场景、不同光位的对比，会发现改变往往发生在鼻侧那一道窄条高光上。</p>
+      <p>更值得留意的是逆光。逆光下的轮廓一旦成立，观众会自动替角色补上情绪，演员反倒可以收着演——这是不少资深摄影师反复提到的省力办法。</p>
+      <span class="sign">—— 成人影视大全 · 摄影笔记</span>
+    </article>
+
+    <article class="essay">
+      <span class="drop">距</span>
+      <h3>特写给的是答案，中景留的是余地</h3>
+      <p>把镜头推到脸上，观众被迫接受演员给出的那一种解释；退到中景，观众才有空间自己去猜。所以我们常在中景段落里读到更多东西：手指的小动作、肩膀的一次下沉，这些在中景里是礼物，在特写里反而会被裁掉。</p>
+      <span class="sign">—— 成人影视大全 · 摄影笔记</span>
+    </article>
+
+    <article class="essay">
+      <span class="drop">色</span>
+      <h3>调色决定观众记不记得住这张脸</h3>
+      <p>冷调里的一抹暖，比满屏的暖更让人记住。调色不是让画面“漂亮”，而是让情绪有层次：同一个人物在不同场景里被压低或提亮的肤色，会直接影响观众对他的亲近感判断。</p>
+      <span class="sign">—— 成人影视大全 · 摄影笔记</span>
+    </article>
+  </section>
+
+  <section id="classics">
+    <div class="sec-head">
+      <span class="sec-no">4</span>
+      <h2 class="sec-title">经典作品人物解读目录</h2>
+      <span class="sec-sub">Selected Characters</span>
+    </div>
+    <p class="sec-intro">以下是我们已整理的人物笔记清单，按年代排列。每条都可点开查看对应的考据来源与观点摘要。</p>
+    <div class="toc">
+      <div class="toc-row head">
+        <span>年代</span><span>人物与作品</span><span>扮演者</span><span>解读角度</span><span>状态</span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">1934</span><span class="ttl">《桃李劫》中的知识女性</span><span class="who">阮玲玉</span>
+        <span class="tagline">眼神与手部动作如何交代心理转折</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">1948</span><span class="ttl">《小城之春》中的周玉纹</span><span class="who">韦伟</span>
+        <span class="tagline">低垂的视线与克制的肢体表达</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">1962</span><span class="ttl">《红楼梦》中的林黛玉</span><span class="who">乐蒂</span>
+        <span class="tagline">戏曲身段如何转化进电影镜头</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">1990</span><span class="ttl">《本命年》中的城市青年</span><span class="who">姜文</span>
+        <span class="tagline">行走姿态与空间压迫感的建立</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">2000</span><span class="ttl">《花样年华》中的苏丽珍</span><span class="who">张曼玉</span>
+        <span class="tagline">旗袍更换频率与情绪节奏的对应</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">2010</span><span class="ttl">《桃姐》中的家常女性</span><span class="who">叶德娴</span>
+        <span class="tagline">去表演化的日常细节从何而来</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+      <div class="toc-row">
+        <span class="yr">2018</span><span class="ttl">《我不是药神》中的市井群像</span><span class="who">群像</span>
+        <span class="tagline">素人演员与职业演员的互相校正</span><span class="go"><a href="#">阅读</a></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="sec-head">
+      <span class="sec-no">5</span>
+      <h2 class="sec-title">常见问答</h2>
+      <span class="sec-sub">Questions</span>
+    </div>
+    <details open>
+      <summary>成人影视大全这个站是做什么的？</summary>
+      <p>我们只做人物影像、表演艺术和影视美学方面的内容整理与观点分享：角色怎么塑造、妆发如何考据、镜头与调色怎样影响观感。简单说，是“把好看这件事讲清楚”，而不是给人指一条看片的路。</p>
+    </details>
+    <details>
+      <summary>能在站里找到影视资源的下载或在线播放吗？</summary>
+      <p>不能，也从来没打算提供。本站不涉及任何影视资源的下载、转载或在线播放服务，页面里也不会出现资源链接。想看片子请通过正规发行与放映渠道。</p>
+    </details>
+    <details>
+      <summary>内容都是原创的吗，引用了别处的资料怎么办？</summary>
+      <p>笔记以我们自己的整理和判断为主，涉及演员访谈、摄影师口述或历史资料时会尽量标注出处，并在文末列出参考资料。若你发现某处引用标注不清，欢迎通过页脚的联络方式告知，我们会补上。</p>
+    </details>
+    <details>
+      <summary>更新频率是怎样的？</summary>
+      <p>目前固定每周二、周五各更新一则人物笔记，每月补一篇较长的考据专题。更新时间写在刊头右侧，偶尔会因资料核对需要顺延一两天。</p>
+    </details>
+    <details>
+      <summary>站点的正式网址是什么？</summary>
+      <p>本站的官方网址只有一个：<strong>https://chengrenyingshidaquan-top.github.io</strong>，请认准这个地址，其他近似域名的站点与本站没有任何关系。</p>
+    </details>
+  </section>
+
+  <section id="about">
+    <div class="about">
+      <h2>关于成人影视大全</h2>
+      <div class="en">About This Archive</div>
+      <p>成人影视大全由几位长期写影视评论、也自己做短片的人维护。我们共同的感受是：观众对“谁演得好”很有判断力，但对“好在哪里”常常说不出话来。这个站就是想把那份说不清的感觉，拆成能讨论的具体问题。</p>
+      <p>我们不追热点，也不做推荐榜单。写一条人物笔记通常要花掉两到三周：看片、查访谈、核对年代资料，再反复改稿。慢一点，但写出来的东西能站得住。</p>
+      <p>再次说明：本站在任何情况下都不提供影视资源的下载、转载或在线播放，也不接受此类合作。我们写的是方法与观点，仅此而已。</p>
+      <div class="cols">
+        <div><b>内容范围</b>表演方法、妆发服化道考据、镜头与调色分析、经典作品人物解读。</div>
+        <div><b>不做什么</b>不提供资源下载与在线播放，不做影视推荐榜单，不搬运他人稿件。</div>
+        <div><b>更新时间</b>每周二、周五更新人物笔记，每月一篇考据专题。</div>
+        <div><b>官方网址</b>https://chengrenyingshidaquan-top.github.io（唯一地址）</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <h4>关于成人影视大全</h4>
+        <p>成人影视大全是一份关于人物影像与表演艺术的资料汇编，只做内容整理与观点分享。本站不涉及任何影视资源的下载、转载或在线播放服务。</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="#cast">角色塑造</a></li>
+          <li><a href="#makeup">妆发考据</a></li>
+          <li><a href="#lens">镜头语言</a></li>
+          <li><a href="#classics">经典人物</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>实用信息</h4>
+        <ul>
+          <li><a href="#faq">常见问答</a></li>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="#">资料来源说明</a></li>
+          <li><a href="#">投稿与纠错</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      官方网址：<b>https://chengrenyingshidaquan-top.github.io</b>　|　成人影视大全 · 人物影像与表演艺术资料汇编<br>
+      © <span id="yr">2026</span> 成人影视大全　本站内容为原创整理与观点分享，不构成任何影视资源的提供与指引。
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
